@@ -3,7 +3,10 @@
 <a href="https://finallyupper.github.io/beyond-softmax/">
   <img src="https://img.shields.io/badge/Project%20Page-online-brightgreen" alt="Beyond Softmax">
 </a>
-  
+<a href="https://arxiv.org/abs/2511.05590">
+  <img src="https://img.shields.io/badge/arXiv-2511.05590-b31b1b?logo=arxiv&logoColor=white" alt="arXiv">
+</a>
+
 <br>
 This repository contains official code implementation of "Beyond Softmax: Dual-Branch Sigmoid Architecture for Accurate Class Activation Maps". We provide PyTorch training, inference code and hyperparameter settings reported in the paper.  
   
@@ -101,10 +104,12 @@ python main.py \
 # Citations
 If you find our work interesting, please consider citing
 ```
-@article{oh:2025:beyondsoftmax,
-  title = {Beyond Softmax: Dual-Branch Sigmoid Architecture for Accurate Class Activation Maps},
-  author = {Oh, Yoojin and Noh, Junhyug},
-  journal = {British Machine Vision Conference (BMVC)},
-  year = {2025}
+@inproceedings{Oh_2025_BMVC,
+author    = {Yoojin Oh and Junhyug Noh},
+title     = {Beyond Softmax: Dual-Branch Sigmoid Architecture for Accurate Class Activation Maps},
+booktitle = {36th British Machine Vision Conference 2025, {BMVC} 2025, Sheffield, UK, November 24-27, 2025},
+publisher = {BMVA},
+year      = {2025},
+url       = {https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_416/paper.pdf}
 }
 ```
